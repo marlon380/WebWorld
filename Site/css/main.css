@@ -1,0 +1,424 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.Position_ajust{
+    margin-left: 121px!important;
+}
+
+.Menu_principal{
+    background-color: #252323;
+    width: 100%;
+    height: 60px;
+}
+
+.Cab{
+    margin: 0 auto;
+    width: 1184px;
+    position: relative;
+}
+
+.logo_header{
+    float: left;
+    padding: 16px;
+    width: 60%;
+}
+
+.Redes_sociais ul li{
+    margin-left: 25px;
+    display: inline-block;
+
+    list-style: none;
+}
+
+.Redes_sociais{
+    width: 30%;
+    float: right;
+}
+
+.header{
+    background-color: white;
+    width: 1184px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.Barra_cinza{
+    width: 100%;
+    height:60px ;
+    border-bottom: 3px solid #efefef;
+}
+
+.menu_link{
+    height: 101px;
+    border-bottom: 3px solid #efefef;
+}
+
+.Menu1{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.Menu{
+    width: 70%;
+    float: left;
+}
+
+ul{
+    padding: 0!important;
+}
+
+.Menu ul li{
+    margin-left: 10px;
+    display: inline-block;
+    color: #9a9a9a;
+    height: 65px;
+}
+
+.Menu ul li a{
+    color: #9a9a9a;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.Menu ul li a:hover{
+    color: #00bac6;    
+}
+
+.Menu ul li:hover{
+    border-bottom: 3px solid #00bac6;
+}
+
+.Busca{
+    width: 30%;
+    float: right;
+}
+
+.Busca input{
+    background-image: url('../img/lupa.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
+    border: 1px solid #d6d6d6;
+    height: 36px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: left;
+}
+.Menu2{
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    background-image: url(../img/setaEsq.png);
+    position: absolute;
+    top: 47%;
+    left: 193px;
+}
+
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    background-image: url(../img/setaDireita.png);
+    position: absolute;
+    top: 47%;
+    right: 266px;
+}
+
+.slick-initialized{
+    overflow: hidden;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+    left: 19%;
+    bottom: 63px;
+}
+
+.slick-dots li{
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.slick-dots li button:hover{
+    background: #00bac6
+}
+
+li.slick-active button{
+    background: #00bac6!important;
+}
+
+.slick-dots li button{
+    font-size: 0px;
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.Menu3{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.Text1{
+    margin: 0 auto;
+    width: 1184px;
+    position: relative;
+}
+
+.Text1 p{
+    color: #9a9a9a;
+    font-size: 15px;
+}
+
+.Text1 h1{
+    font-weight: normal!important;
+    color: #818181;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.Text1 b{
+    color: #646464;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.Text_img{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+
+.Text_img h1 {
+    font-size: 10px;
+}
+
+.Text_img h1 b{
+    font-size: 10px;
+}
+
+.Text_img h1 p{
+    font-size: 10px;
+}
+
+.Lateral{
+    margin-top: 3em;
+}
+
+.Central{
+    margin-top: 6em;
+}
+
+.Menu4{
+    background-color: #eeeeee;
+    width: 100%;
+    height: 769px;
+    position: relative;
+    float: left;
+}
+
+.Text_img2{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10%;
+    width: 1184px;
+    float: left;
+    position: relative;
+}
+
+.Text_img2 h1{
+    font-size: 15px;
+}
+
+.Text_img2 h1 p{
+    font-size: 10px;
+}
+
+.Elementos{
+    cursor: pointer;
+    margin-top: 3em;
+    width: 33%;
+    position: relative;
+    float: left;
+}
+
+.Quadro{
+    height: 280px;
+    border: 1px solid #c5c5c5;
+    max-height: min-content;
+    max-width: min-content;
+    padding: 0px;
+    margin-left: 10px;
+}
+
+.Menu4::before{
+    display: inline-block;
+    width: 100%;
+    height: 33px;
+    content: '';
+    background-image: url('../img/setaCima.png')!important;
+    background: white;
+    background-repeat: no-repeat;
+    background-position: 645px;
+}
+
+.Menu5{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.Logos{
+    width: 1184px;
+    height: 197px;
+    float: left;
+    position: relative;
+    padding: 10px;
+    margin-left: 76px;
+}
+
+.Logo{
+    cursor: pointer;
+    float: left;
+    width: 22%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 42px;
+    transition: width 2s,height 2s, transform 2s;
+}
+
+.Logo:hover{
+    position: relative;
+    transform: rotate(360deg);
+}
+
+.Logo img{
+    padding: 10px;
+}
+
+.logo3 img{
+    margin-top: 15px;
+}
+
+.logo4 img{
+    margin-top: -15px;
+}
+
+.Menu6{
+    width: 100%;
+    float: left;
+    position: relative;
+    background-image: url('../img/background_menu6.png');
+    color: white;
+}
+
+.Final_text{
+    width: 1184px;
+    position: relative;
+    margin-left: 42px;
+    padding: 10px;
+}
+
+.Text{
+    float: left;
+    width: 14%;
+    text-align: center;
+    margin-left: 105px;
+}
+
+.Text h3{
+    text-align: left;
+}
+
+.Text p{
+    text-align: left;
+}
+
+.Relogio{
+    color: #898989;
+}
+
+.Relogio::before{
+    display: inline-block;
+    content: '';
+    float: left;
+    width: 14px;
+    height: 15px;
+    background-image: url('../img/relogio.png');
+    background-repeat: no-repeat;
+    padding: 4px;
+}
+
+.Local{
+    background-image: url('../img/local.png');
+    background-repeat: no-repeat;
+}
+
+.Email{
+    background-image: url('../img/email.png');
+    background-repeat: no-repeat;
+}
+
+.Telefone{
+    background-image: url('../img/telefone.png');
+    background-repeat: no-repeat;
+}
+
+.Local::before, .Email::before, .Telefone::before{
+    display: inline-block;
+    content: '';
+    float: left;
+    width: 14px;
+    height: 15px;
+    padding: 4px;
+}
+
+.End_site{
+    width: 100%;
+    float: left;
+    position: relative;
+    background-image: url('../img/Final_site.png');
+}
+
+.Final_foot{
+    width: 1184px;
+    float: left;
+    position: relative;
+}
+
+.End_site p{
+    color: white;
+    padding: 12px;
+    padding-left: 156px;
+}
+
+.End_logos{
+    margin-top: -49px;
+    margin-right: 58px;
+    position: relative;
+    float: right;
+}
